@@ -2,7 +2,7 @@
   <div class="hero">
 
     <img
-      src="../assets/hero-banner.jpg"
+      src="image"
       alt="Hero"
       class="hero-image"
     />
@@ -21,5 +21,6 @@
 </template>
 
 <script setup>
+  import image from '../assets/hero-banner.JPG'
 </script>
 
