@@ -1,0 +1,48 @@
+.navbar-custom {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 85%;
+  max-width: 1200px;
+
+  background: rgba(10, 97, 141, 0.781);
+  backdrop-filter: blur(10px);
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+
+  z-index: 1000;
+
+  padding: 20px 10px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: black !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.cart-link {
+  position: relative;
+}
+
+.cart-dot {
+  position: absolute;
+  top: 8px;
+  right: -5px;
+
+  width: 10px;
+  height: 10px;
+
+  background-color: red;
+  border-radius: 50%;
+
+  border: 2px solid white;
+}
