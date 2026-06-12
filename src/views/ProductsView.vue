@@ -50,7 +50,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import ProductCard from '../components/ProductCard.vue'
-import { useCartStore } from '../stores/cart'
+import { useCartStore } from '../stores/Cart.js'
 
 const cart = useCartStore()
 
