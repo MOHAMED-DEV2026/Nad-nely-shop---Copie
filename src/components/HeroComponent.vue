@@ -2,7 +2,7 @@
   <div class="hero">
 
     <img
-      src="image"
+      src="../assets/img/hero-banner.jpg"
       alt="Hero"
       class="hero-image"
     />
@@ -15,12 +15,12 @@
       >
         Clic Pour Voir Nos Produits
       </RouterLink>
-    </div>
+    </div
+    >
 
   </div>
 </template>
 
 <script setup>
-  import image from '../assets/hero-banner.JPG'
 </script>
 

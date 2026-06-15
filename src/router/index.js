@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 import HomeView from '../views/HomeView.vue'
 import ProductsView from '../views/ProductsView.vue'
@@ -30,6 +30,8 @@ const routes = [
 ]
 
 export default createRouter({
-    history: createWebHistory(),
-    routes
+      history: createWebHashHistory(),
+  base: import.meta.env.BASE_URL,
+  routes
 })
+
