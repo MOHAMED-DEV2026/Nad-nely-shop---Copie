@@ -24,25 +24,25 @@
         </RouterLink>
 
         <RouterLink
-  class="nav-link cart-link"
-  to="/cart"
->
-  🛒 Panier
+          class="nav-link cart-link"
+          to="/cart"
+        >
+          🛒 Panier
 
-  <!-- Nombre d'articles -->
-  <span
-    v-if="cart.cartCount > 0"
-    class="badge bg-danger ms-1"
-  >
-    {{ cart.cartCount }}
-  </span>
+          <!-- Nombre d'articles -->
+          <span
+            v-if="cart.cartCount > 0"
+            class="badge bg-danger ms-1"
+          >
+            {{ cart.cartCount }}
+          </span>
 
-  <!-- Point rouge -->
-  <span
-    v-if="cart.cartCount > 0"
-    class="cart-dot"
-  ></span>
-   </RouterLink>
+          <!-- Point rouge -->
+          <span
+            v-if="cart.cartCount > 0"
+            class="cart-dot"
+          ></span>
+        </RouterLink>
 
       </div>
 
